@@ -39,3 +39,5 @@ fi
 
 #fer caducar el password
 passwd -e ${USER_NAME}
+
+exit 0
