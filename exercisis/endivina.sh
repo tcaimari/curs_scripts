@@ -8,9 +8,9 @@ ENCERTAT=0
 while [ $INTENTS -gt 0 ]; do
     read -p "Entra un nombre (1-100): " RESPOSTA
 
-    # Validació (extra)
+    
     if ! [[ "$RESPOSTA" =~ ^[0-9]+$ ]] || [ "$RESPOSTA" -lt 1 ] || [ "$RESPOSTA" -gt 100 ]; then
-        echo "Introdueix un nombre valid entre 1 i 100."
+        echo "Introdueix un nombre entre 1 i 100."
         continue
     fi
 
